@@ -64,6 +64,7 @@ def for_iterator(number_of_times)
   counter = 0
   for time in amount do
     puts phrase
+    counter = counter + 1
     break if  > 10
   end
 
