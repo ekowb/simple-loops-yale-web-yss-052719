@@ -63,7 +63,7 @@ def for_iterator(number_of_times)
   amount = 1...number_of_times
   for time in amount do
     puts phrase
-    break if time > 10
+    break if amount > 10
   end
 
 end
