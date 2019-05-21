@@ -17,9 +17,11 @@ def times_iterator(number_of_times)
 
   phrase = "Welcome to Flatiron School's Web Development Course!"
   counter = 0
-  while counter <= number_of_times
+  number_of_times.times do
     puts phrase
     counter = counter + 1
+    break if counter > 10
+  end
 
 end
 
