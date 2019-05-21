@@ -63,6 +63,7 @@ def for_iterator(number_of_times)
   times = 1...number_of_times
   for time in times
     puts phrase
+    break if time > 10
   end
 
 end
