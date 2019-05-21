@@ -16,10 +16,10 @@ def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
 
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  counter == 0
+  counter = 0
   while counter <= number_of_times
     puts phrase
-    counter
+    counter = counter + 1
 
 end
 
