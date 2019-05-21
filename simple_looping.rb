@@ -22,12 +22,9 @@ end
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  counter = 0
-
   number_of_times.times do
     puts phrase
-    counter = counter + 1
-    break if counter > 10
+    break if number_of_times > 10
   end
 end
 
