@@ -49,6 +49,8 @@ def until_iterator(number_of_times)
   until counter == number_of_times do
     puts phrase
     counter = counter + 1
+    break if counter > 10
+  end
 
 
 end
